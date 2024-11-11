@@ -202,4 +202,4 @@ while True:
             print(f'{vua}Dịch vụ hiện không hoạt động, hãy thử lại sau. | Bạn có thể thay đổi nó trong cấu hình.')
             time.sleep(5)
     except Exception as e:
-        print(f'{vua}{do}LỖI NGHIÊM TÚC | thử lại sau 10 giây.|| {e}');time.sleep(10)
+        print(f'{vua}{do}LỖI NGHIÊM TÚC (critical error)| thử lại sau 10 giây.|| {e}');time.sleep(10)
